@@ -3,7 +3,7 @@ pipeline {
          stages {
                  stage('One') {
                  steps {
-                     echo 'Hi, this is Zulaikha from edureka'
+                     echo 'Hi, this is ARVIND VAISHNAVI'
                  }
                  }
                  stage('Two') {
@@ -21,16 +21,8 @@ pipeline {
                        echo "Hello"
                  }
                  }
-                 stage('Four') {
-                 parallel { 
-                            stage('Unit Test') {
-                           steps {
-                                echo "Running the unit test..."
-                           }
-                           }
-                         
-                         }  
-                          
+                
+                           
                            
               }
 }
